@@ -21,13 +21,10 @@
             android:textSize="16sp" />
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/HeaderTextStyle"
             android:paddingBottom="8dp"
             android:text="Toppings"
-            android:textAllCaps="true"
-            android:paddingTop="16dp"
-            android:textSize="14sp"/>
+            android:paddingTop="16dp" />
 
         <CheckBox
             android:id="@+id/whipped_cream_checkbox"
@@ -48,12 +45,10 @@
             android:textSize="16sp"/>
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/HeaderTextStyle"
             android:paddingBottom="8dp"
             android:paddingTop="8dp"
-            android:text="Quantity"
-            android:textAllCaps="true" />
+            android:text="Quantity"/>
 
         <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
             xmlns:tools="http://schemas.android.com/tools"
@@ -85,23 +80,6 @@
                 android:onClick="increment"
                 android:text="+" />
         </LinearLayout>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:paddingBottom="16dp"
-            android:paddingTop="16dp"
-            android:text="Order Summary"
-            android:textAllCaps="true" />
-
-        <TextView
-            android:id="@+id/order_summary_text_view"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:paddingBottom="16dp"
-            android:text="$0.00"
-            android:textColor="@android:color/black"
-            android:textSize="16sp" />
 
         <Button
             android:layout_width="wrap_content"
